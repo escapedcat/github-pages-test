@@ -1,7 +1,7 @@
-How come HTML structure looks like this?:
+How come HTML structure looks [like this](https://escapedcat.github.io/github-pages-test/)?:
 
 ```html
-  <body>
+<body>
     <section class="page-header">
     </section>
 
@@ -23,3 +23,5 @@ And not [like this](https://pages-themes.github.io/cayman/)?:
     </main>
 </body>
 ```
+
+According to [the latest `default` template of **cayman**](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html#L25) it should use `header`, `main` and have a *scip to content* link.
