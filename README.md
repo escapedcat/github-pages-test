@@ -1,3 +1,5 @@
+## Question
+
 How come HTML structure looks [like this](https://escapedcat.github.io/github-pages-test/)?:
 
 ```html
@@ -25,3 +27,8 @@ And not [like this](https://pages-themes.github.io/cayman/)?:
 ```
 
 According to [the latest `default` template of **cayman**](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html#L25) it should use `header`, `main` and have a *scip to content* link.
+
+## Answer
+Because GH pages & offical theme preview always shows `master` branch.  
+But GH pages is actually using the latest official version. In this case `0.1.1`.  
+Confusing much? Yes!
